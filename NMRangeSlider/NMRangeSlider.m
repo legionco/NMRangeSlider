@@ -572,7 +572,8 @@ NSUInteger DeviceSystemMajorVersion() {
         _upperValue = _maximumValue;
     }
 
-    self.trackBackground.frame = [self trackBackgroundRect];
+    self.trackBackground.frame = [self trackBackgroundRect];    
+    self.trackBackground.image = [self trackBackgroundImage];
     self.track.frame = [self trackRect];
     self.track.image = [self trackImageForCurrentValues];
 
